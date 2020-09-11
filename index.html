@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="/js/main.js"></script>
+    <title>Kalkulator BMI</title>
+</head>
+
+<body>
+    <p>Oblicz swoje BMI !</p>
+    <form class="js-form">
+        <fieldset>
+            <legend> Podaj potrzebne dane</legend>
+            <ul>
+                <p>
+                    Podaj swój wzrost <input type="number" min="1" required class="js-height">
+                </p>
+                <p>
+                    Podaj swoją wagę <input type="number" min="1" required class="js-weight">
+                </p>
+            </ul>
+        </fieldset>
+        <p>
+            <button>Oblicz</button>
+        </p>
+    </form>
+    <p>Twoje BMI wynosi: <strong class="js-bmi">N/A</strong></p>
+
+
+</body>
+
+</html>
